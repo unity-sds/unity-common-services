@@ -3,9 +3,9 @@
 
 <div align="center">
 
-![logo](https://user-images.githubusercontent.com/3129134/163247802-ad001e00-15a6-4d6e-9824-2106cb022dd7.png)
+![logo](https://user-images.githubusercontent.com/3129134/163255685-857aa780-880f-4c09-b08c-4b53bf4af54d.png)
 
-<h1 align="center">[INSERT YOUR REPO / PROJ NAME HERE]</h1>
+<h1 align="center">Unity Common Services</h1>
 <!-- ☝️ Replace with your repo name ☝️ -->
 
 </div>
@@ -24,10 +24,7 @@
 [INSERT MORE DETAILED DESCRIPTION OF YOUR REPOSITORY HERE]
 <!-- ☝️ Replace with a more detailed description of your repository, including why it was made and whom its intended for.  ☝️ -->
 
-[INSERT LIST OF IMPORTANT PROJECT / REPO LINKS HERE]
-<!-- example links>
-[Website](INSERT WEBSITE LINK HERE) | [Docs/Wiki](INSERT DOCS/WIKI SITE LINK HERE) | [Discussion Board](INSERT DISCUSSION BOARD LINK HERE) | [Issue Tracker](INSERT ISSUE TRACKER LINK HERE)
--->
+[Wiki](https://github.com/unity-sds/unity-cs/wiki) | [Discussion Board](INSERT DISCUSSION BOARD LINK HERE) | [Issue Tracker](https://github.com/unity-sds/unity-cs/issues)
 
 ## Features
 
