@@ -19,5 +19,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - unity-security :  https://github.com/unity-sds/unity-cs-security/releases/tag/unity-prototype-0.2 
 - unity-cs-infra :
 - unity-cs-terraform-transformer : https://github.com/unity-sds/unity-cs-terraform-transformer/releases/tag/unity-prototype-0.2
-- unity-cs-deployment-catalog :
+- unity-cs-deployment-catalog : https://github.com/unity-sds/unity-cs-deployment-catalog/releases/tag/unity-prototype-0.2
 - gitbook Documentation : 
