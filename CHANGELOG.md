@@ -12,3 +12,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 
 -
 -
+
+## [0.2.0] - "Release 2" 2022-07-28
+
+- unity-cs :
+- unity-security :  https://github.com/unity-sds/unity-cs-security/releases/tag/unity-prototype-0.2 
+- unity-cs-infra :
+- unity-cs-terraform-transformer :
+- unity-cs-deployment-catalog :
