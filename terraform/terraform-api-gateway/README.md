@@ -44,7 +44,7 @@ Can be derived with:
 
 ### Example 
 
-In this example, the account number is purposefully set to 1234567890 and also added fake values. Please replace values with correct values): 
+In this example, the account number is purposefully set to 1234567890 and also added fake values. Please replace these values with correct values): 
 ```shell
 
 aws ssm put-parameter --name "/unity/dev/unity-sps-1/api-gateway/functions/cs-lambda-authorizer-uri" \
