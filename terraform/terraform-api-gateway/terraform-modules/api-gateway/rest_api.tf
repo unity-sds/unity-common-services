@@ -1,5 +1,8 @@
 resource "aws_api_gateway_rest_api" "rest_api" {
   name = var.rest_api_name
+  endpoint_configuration {
+    types = ["REGIONAL"]
+  }
   body = data.template_file.api_template.rendered
 }
 

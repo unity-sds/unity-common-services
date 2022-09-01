@@ -77,7 +77,7 @@ git clone https://github.com/unity-sds/unity-cs.git -b api-gateway-terraform
 4. Change current working directory to `terraform/terraform-api-gateway`
 
 ```shell
-cd cd terraform/terraform-api-gateway/
+cd unity-cs/terraform/terraform-api-gateway/
 ```
 
 5. Execute following commands to deploy the API Gateway.
