@@ -92,3 +92,8 @@ terraform apply
 
 6. Visit the API Gateway service and observe the newly deployed API Gateway (in this example, it takes the name "Unity CS Experimental REST API Gateway").
 
+7. To delete the API Gateway, you may use the following command.
+
+```shell
+terraform destroy
+```
