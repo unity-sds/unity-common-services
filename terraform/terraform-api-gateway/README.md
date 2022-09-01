@@ -80,7 +80,12 @@ git clone https://github.com/unity-sds/unity-cs.git -b api-gateway-terraform
 cd unity-cs/terraform/terraform-api-gateway/
 ```
 
-5. Execute following commands to deploy the API Gateway.
+5. Check the YAML file at `unity-cs/terraform/terraform-api-gateway/terraform-modules/unity-rest-api-gateway-oas30.yaml`,
+which contains the Open API Specification 3.0 definition of Unity API Gateway and make necessary updates (only if required). You can use 
+this file to define a complete API Gateway by adding, updating, deleting API resources and methods, configuring authorizers and
+setting-up integration points.
+
+7. Execute following commands to deploy the API Gateway.
 
 ```shell
 terraform init
@@ -90,9 +95,9 @@ terraform init
 terraform apply
 ```
 
-6. Visit the API Gateway service and observe the newly deployed API Gateway (in this example, it takes the name "Unity CS Experimental REST API Gateway").
+7. Visit the API Gateway service and observe the newly deployed API Gateway (in this example, it takes the name "Unity CS Experimental REST API Gateway").
 
-7. To delete the API Gateway, you may use the following command.
+8. To delete the API Gateway, you may use the following command.
 
 ```shell
 terraform destroy
