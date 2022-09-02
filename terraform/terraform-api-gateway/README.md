@@ -42,7 +42,7 @@ Can be derived with:
      "arn:aws:apigateway:" + <AWS_REGION_OF_FUNCTION> + ":lambda:path/2015-03-31/functions/" + <ARN_OF_THE_FUNCTION> + "/invocations"
 
 
-### Example 
+#### Example 
 
 In this example, the account number is purposefully set to 1234567890 and also added fake values. Please replace these values with correct values): 
 ```shell
