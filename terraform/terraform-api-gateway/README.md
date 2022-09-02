@@ -14,7 +14,7 @@ This Document is a Work in Progress
 export AWS_ACCESS_KEY_ID=
 export AWS_SECRET_ACCESS_KEY=
 export AWS_SESSION_TOKEN=
-export AWS_DEFAULT_REGION=us-west-2export AWS_DEFAULT_REGION=us-west-2
+export AWS_DEFAULT_REGION=us-west-2
 ```
 
 2. The following parameters should be available in the AWS System Manager (SSM) Parameter Store before deploying the API Gateway. These values can be set
