@@ -6,7 +6,7 @@ This Document is a Work in Progress
 - Terraform
 - AWS CLI
 
-## Steps Deploy the API Gateway
+## Steps to Deploy the API Gateway
 
 1. Open a terminal and set the following environment variables with correct values associated with your AWS account.
 
