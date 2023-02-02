@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Unity Common Services
+  description: |
+    The Unity Common Services repository is the common services placeholder repo and central issue tracker.
+  links:
+    - title: Github
+      url: https://github.com/unity-sds
+    - title: Documentation
+      url: https://unity-sds.gitbook.io/docs/developer-docs/common-services
+  annotations:
+    github.com/project-slug: unity-sds/unity-cs
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  owner: guests
+  lifecycle: experimental
