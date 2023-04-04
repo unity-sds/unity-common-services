@@ -21,3 +21,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - unity-cs-terraform-transformer : https://github.com/unity-sds/unity-cs-terraform-transformer/releases/tag/unity-prototype-0.2
 - unity-cs-deployment-catalog : https://github.com/unity-sds/unity-cs-deployment-catalog/releases/tag/unity-prototype-0.2
 - gitbook Documentation : https://unity-sds.gitbook.io/docs/developer-docs/common-services (this is still a WIP, but as of 7/28 represents the 0.2 release..)
+
+## [Unity Release 23.1] - 2023-04-07
+
+- u-ads-jupyter-security
+  - coming soon...
