@@ -39,7 +39,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - [unity-cs #74] Working example for Jupyter Notebook users to access the protected WPS-T endpoints
       - https://github.com/unity-sds/unity-cs/wiki/Accessing-Secured-REST-API-Endpoints-from-Jupyter-Notebook
 - EPIC: `api-reachability-and-routing`
-  - coming soon...
+    - [unity-cs #116, unity-cs #114, unity-cs #57] Implemented terraform to deploy the API Gateway and update integration points through stage variables
+      - https://github.com/unity-sds/unity-cs/tree/api-gateway-terraform/terraform/terraform-api-gateway
+    - [unity-cs #104, unity-cs #56] API Gateway Lambda Authorizer to accept jwt access tokens of multiple client IDs and authorize requests based on Cognito user groups
+      - https://github.com/unity-sds/unity-cs-security/tree/main/code_samples/api-gateway-common-lambda-authorizer-function
+
 - EPIC: `basic-deployment-docs`
   - Basic SDLC and Deployment diagram can be found here:  https://app.gitbook.com/o/xZRqGQeQXJ0RP4VMj7Lq/s/UMIRhLdbRQTvMWop8Il9/developer-docs/common-services/quick-start
   - Resource Tagging Documentation:  https://unity-sds.gitbook.io/docs/developer-docs/common-services/docs/users-guide/deployment/unity-aws-resource-tagging-conventions
