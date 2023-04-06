@@ -13,7 +13,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 -
 -
 
-## [Unity Prototype 0.2] - 2022-07-28
+--------
+# [Unity Prototype 0.2] - 2022-07-28
 
 - unity-cs : https://github.com/unity-sds/unity-cs/releases/tag/unity-prototype-0.2
 - unity-security : https://github.com/unity-sds/unity-cs-security/releases/tag/unity-prototype-0.2 
@@ -22,8 +23,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - unity-cs-deployment-catalog : https://github.com/unity-sds/unity-cs-deployment-catalog/releases/tag/unity-prototype-0.2
 - gitbook Documentation : https://unity-sds.gitbook.io/docs/developer-docs/common-services (this is still a WIP, but as of 7/28 represents the 0.2 release..)
 
-## [Unity Release 23.1] - 2023-04-07
+--------
+# [Unity Release 23.1] - 2023-04-07
 
+- unity-cs : https://github.com/unity-sds/unity-cs/releases/tag/23.1
+- unity-cs-infra : https://github.com/unity-sds/unity-cs-infra/releases/tag/23.1
+- unity-cs-security : https://github.com/unity-sds/unity-cs-security/releases/tag/23.1
+- unity-cs-manager : https://github.com/unity-sds/unity-cs-manager/releases/tag/23.1
+- unity-control-plan :  https://github.com/unity-sds/unity-control-plane/releases/tag/23.1
+- unity-cs-action : https://github.com/unity-sds/unity-cs-action/releases/tag/23.1 
+
+## Epics:
 - EPIC: `u-ads-jupyter-security`
     - [unity-cs #129] Custom JupyterHub Authenticator to pass Cognito tokens from JupyterHub to JupyterLab
       - https://github.com/unity-sds/unity-ads-deployment/pull/109/files
