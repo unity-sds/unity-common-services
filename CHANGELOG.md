@@ -24,12 +24,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unity Release 23.1] - 2023-04-07
 
-- u-ads-jupyter-security
+- EPIC: `u-ads-jupyter-security`
   - coming soon...
-- api-reachability-and-routing
+- EPIC: `api-reachability-and-routing`
   - coming soon...
-- basic-deployment-docs
+- EPIC: `basic-deployment-docs`
   - Basic SDLC and Deployment diagram can be found here:  https://app.gitbook.com/o/xZRqGQeQXJ0RP4VMj7Lq/s/UMIRhLdbRQTvMWop8Il9/developer-docs/common-services/quick-start
   - Resource Tagging Documentation:  https://unity-sds.gitbook.io/docs/developer-docs/common-services/docs/users-guide/deployment/unity-aws-resource-tagging-conventions
-- deployment-venue-support
+- EPIC: `deployment-venue-support`
   - coming soon...
