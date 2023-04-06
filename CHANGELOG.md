@@ -43,7 +43,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
       - https://github.com/unity-sds/unity-cs/tree/api-gateway-terraform/terraform/terraform-api-gateway
     - [unity-cs #104, unity-cs #56] API Gateway Lambda Authorizer to accept jwt access tokens of multiple client IDs and authorize requests based on Cognito user groups
       - https://github.com/unity-sds/unity-cs-security/tree/main/code_samples/api-gateway-common-lambda-authorizer-function
-
+    - [unity-cs #189] Update API GW SSM Parameters when deploying API GW through terraform
+      - Added ssm parameter resources to API GW terraform for services to use when modifying the API GW Rest API.
+        https://github.com/unity-sds/unity-cs-infra/blob/0cdaeb18ad85dd1f19aab75ac8d198cd0efec5c1/terraform-project-api-gateway_module/main.tf#L11
 - EPIC: `basic-deployment-docs`
   - Basic SDLC and Deployment diagram can be found here:  https://app.gitbook.com/o/xZRqGQeQXJ0RP4VMj7Lq/s/UMIRhLdbRQTvMWop8Il9/developer-docs/common-services/quick-start
   - Resource Tagging Documentation:  https://unity-sds.gitbook.io/docs/developer-docs/common-services/docs/users-guide/deployment/unity-aws-resource-tagging-conventions
