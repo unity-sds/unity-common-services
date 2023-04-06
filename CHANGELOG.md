@@ -25,7 +25,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unity Release 23.1] - 2023-04-07
 
 - EPIC: `u-ads-jupyter-security`
-  - coming soon...
+    - [unity-cs #129] Custom JupyterHub Authenticator to pass Cognito tokens from JupyterHub to JupyterLab
+      - https://github.com/unity-sds/unity-ads-deployment/pull/109/files
+    - [unity-cs #122] Reusable python function to obtain and refresh Cognito tokens in Jupyter Notebooks
+      - https://github.com/unity-sds/unity-cs-security/tree/main/code_samples/jupyter/get_and_refresh_tokens
+    - [unity-cs #120, unity-cs #123] Reusable python function to obtain and refresh temporary AWS credentials in Jupyter Notebooks
+      - https://github.com/unity-sds/unity-cs-security/tree/main/code_samples/jupyter/identity_pool_aws_creds
+    - [unity-cs #51] Documentation and working example of how security for a user logging into Jupyterhub would work
+      - Documented the steps to integrate Amazon Cognito authentication with JupyterHub in the following wiki page.
+        https://github.com/unity-sds/unity-cs/wiki/Amazon-Cognito-Authentication-with-JupyterHub
+      - Documented the approaches to get JWT Token in command line in the following wiki page. These approaches can be used in a Jupyter Notebook too.
+        https://github.com/unity-sds/unity-cs/wiki/Getting-Cognito-JWT-Tokens-in-Command-Line
+    - [unity-cs #74] Working example for Jupyter Notebook users to access the protected WPS-T endpoints
+      - https://github.com/unity-sds/unity-cs/wiki/Accessing-Secured-REST-API-Endpoints-from-Jupyter-Notebook
 - EPIC: `api-reachability-and-routing`
   - coming soon...
 - EPIC: `basic-deployment-docs`
