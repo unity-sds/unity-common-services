@@ -41,7 +41,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - EPIC: `basic-deployment-docs`
   - Basic SDLC and Deployment diagram can be found here:  https://app.gitbook.com/o/xZRqGQeQXJ0RP4VMj7Lq/s/UMIRhLdbRQTvMWop8Il9/developer-docs/common-services/quick-start
   - Resource Tagging Documentation:  https://unity-sds.gitbook.io/docs/developer-docs/common-services/docs/users-guide/deployment/unity-aws-resource-tagging-conventions
-  - 
+- EPIC: `deployment-venue-support`
+  - Tom to fill in details  
 
 ------------
 
