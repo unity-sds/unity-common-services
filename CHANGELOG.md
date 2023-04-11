@@ -8,12 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 --------
 # [Unity Release 23.1] - 2023-04-07
 
-- unity-cs : https://github.com/unity-sds/unity-cs/releases/tag/23.1
-- unity-cs-infra : https://github.com/unity-sds/unity-cs-infra/releases/tag/23.1
-- unity-cs-security : https://github.com/unity-sds/unity-cs-security/releases/tag/23.1
-- unity-cs-manager : https://github.com/unity-sds/unity-cs-manager/releases/tag/23.1
-- unity-control-plan :  https://github.com/unity-sds/unity-control-plane/releases/tag/23.1
-- unity-cs-action : https://github.com/unity-sds/unity-cs-action/releases/tag/23.1 
+- unity-cs-infra : https://github.com/unity-sds/unity-cs-infra/releases/tag/0.1.0
+- unity-cs-security : https://github.com/unity-sds/unity-cs-security/releases/tag/0.1.0
+- unity-cs-manager : https://github.com/unity-sds/unity-cs-manager/releases/tag/0.1.26-Alpha
+- unity-control-plan :  https://github.com/unity-sds/unity-control-plane/releases/tag/0.1.12-Alpha
+- unity-cs-action : https://github.com/unity-sds/unity-cs-action/releases/tag/v1.0.1
 
 ## Epics:
 - EPIC: `u-ads-jupyter-security`
