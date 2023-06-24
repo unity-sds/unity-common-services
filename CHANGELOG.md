@@ -18,6 +18,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Features:
 - FEATURE:  `Nightly Deployment`
 - FEATURE:  `Unity SIPS Test Venue`
+    - [unity-cs #196] Cognito User Groups Necessary for Unity-Sips-Test deployment
+        - https://github.com/unity-sds/unity-cs-infra/tree/main/terraform-shared-services-cognito_module
+    - [unity-cs #197] Cognito Users Necessary for Unity-Sips-Test deployment
+    - [unity-cs #198] Shared Services (Unity-Test) authorization controls for Unity-Sips-Test access
+        - https://github.com/unity-sds/unity-cs-infra/tree/main/terraform-shared-services-api-gateway_module
+        - https://github.com/unity-sds/unity-cs-infra/tree/main/terraform-shared-services-api-gateway-updater_module    
+    - [unity-cs #201] Automate Project Account (Unity-Sips-Test) Auth Lambda Deployment
+        - https://github.com/unity-sds/unity-cs-auth-lambda
+        - https://github.com/unity-sds/unity-cs-infra/tree/main/terraform-project-api-gateway_module
+          
 - FEATURE:  `Venue Costs`
 
 
