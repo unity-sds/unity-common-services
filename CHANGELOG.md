@@ -17,6 +17,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Features:
 - FEATURE:  `Nightly Deployment`
+    - [unity-cs #151] Nightly Deploy & Teardown via Github Actions
+    - [unity-cs #132] Nightly SSM/TF param management + flow (partially implmented, some sub-items pushed to 23.3)
+    - [unity-cs #131] Implement GH Actions Teardown for EKS
+    - [unity-cs #124] Integrate API Gateway script into Nightly CI Deploys
+    - [unity-cs #222] Integrate Terraform bootstrap code/scripts into Management Console EC2 (partially implmented, some sub-items pushed to 23.3)
+    - [unity-cs #224] Populate & Display Base SSM Params in the Management Console UI
+    - 
 - FEATURE:  `Unity SIPS Test Venue`
     - [unity-cs #196] Cognito User Groups Necessary for Unity-Sips-Test deployment
         - https://github.com/unity-sds/unity-cs-infra/tree/main/terraform-shared-services-cognito_module
@@ -29,7 +36,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
         - https://github.com/unity-sds/unity-cs-infra/tree/main/terraform-project-api-gateway_module
           
 - FEATURE:  `Venue Costs`
-
+    - 
 
 --------
 # [Unity Release 23.1] - 2023-04-07
