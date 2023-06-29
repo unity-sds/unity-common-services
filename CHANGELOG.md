@@ -34,8 +34,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - [unity-cs #201] Automate Project Account (Unity-Sips-Test) Auth Lambda Deployment
         - https://github.com/unity-sds/unity-cs-auth-lambda
         - https://github.com/unity-sds/unity-cs-infra/tree/main/terraform-project-api-gateway_module
+    - [unity-cs #193] Confirm that Unity-Sips-Test has necessary deployment permissions #193
+    - [unity-cs #200] Implement API Gateway creation scripts/terraform #200
+    - [unity-cs #202] Automate Project Account (Unity-Sips-Test) SSM Deployment #202
+    - [unity-cs #203] Automate Project Account (Unity-Sips-Test) EKS Deployment #203
+    - [unity-cs #219] [New Feature]: Deploy software properly using act and correct commands #219
+    - [unity-cs #225] Hook Front-end of Management Console up to backed deployment logic #225
+    - [unity-cs #227] [New Feature]: Package workflows with management console #227
+    - [unity-cs #229] [New Feature]: Let config panel look up existing ssm params to prepopulate config #229
+    - [unity-cs #230] [New Feature]: look up network subnets from aws #230
+    - [unity-cs #231] [New Feature]: convert messages to all protobuf #231
+    - [unity-cs #233] [New Feature]: Wire up bootstrap for API gateway installation #233
+    - [unity-cs #238] [New Feature]: reload config from database on app start #238
+    - [unity-cs #243] Remove progress bar / detect completion and show continue button on install finish #243
           
 - FEATURE:  `Venue Costs`
+    - [unity-cs #98] Mechanism to query tagged resources
+    - [unity-cs #96] Documentation / Guidance for Tagging
+        - https://unity-sds.gitbook.io/docs/developer-docs/common-services/docs/users-guide/deployment/unity-aws-resource-tagging-conventions
+    - [unity-cs #128] Apply Mandatory Tags to EKS Cluster
     - 
 
 --------
