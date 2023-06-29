@@ -8,12 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 --------
 # [Unity Release 23.2] - 2023-06-30
 
-- unity-cs : https://github.com/unity-sds/unity-cs/releases/tag/TBD
+- unity-cs : https://github.com/unity-sds/unity-cs/releases/tag/23.2
 - unity-cs-infra : https://github.com/unity-sds/unity-cs-infra/releases/tag/TBD
 - unity-cs-security : https://github.com/unity-sds/unity-cs-security/releases/tag/TBD
-- unity-cs-manager : https://github.com/unity-sds/unity-cs-manager/releases/tag/TBD
-- unity-management-console :  https://github.com/unity-sds/unity-management-console/releases/tag/TBD
-- unity-cs-action : https://github.com/unity-sds/unity-cs-action/releases/tag/TBD
+- unity-cs-manager : https://github.com/unity-sds/unity-cs-manager/releases/tag/0.1.27
+- unity-management-console :  https://github.com/unity-sds/unity-management-console/releases/tag/0.2.11
+- unity-cs-action : https://github.com/unity-sds/unity-cs-action/releases/tag/1.0.2
 
 ## Features:
 - FEATURE:  `Nightly Deployment`
