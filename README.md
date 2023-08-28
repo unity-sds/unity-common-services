@@ -36,7 +36,7 @@ Unity-CS (Unity Common Services) is a subsystem of the Unity project that focuse
 
 ## Quick Start
 
-This guide provides a quick way to get started with our project. Please see our [wiki](https://github.com/unity-sds/unity-cs/wiki) for a more comprehensive overview.
+This guide provides a quick way to get started with our project. Please see our [documentation](https://unity-sds.gitbook.io/docs/developer-docs/common-services) for a more comprehensive overview.
 
 ### Requirements
 
