@@ -6,33 +6,30 @@
 ![logo](https://user-images.githubusercontent.com/3129134/163255685-857aa780-880f-4c09-b08c-4b53bf4af54d.png)
 
 <h1 align="center">Unity Common Services</h1>
-<!-- ☝️ Replace with your repo name ☝️ -->
 
 </div>
 
-<pre align="center">[INSERT A SINGLE SENTENCE DESCRIBING THE PURPOSE OF YOUR REPO / PROJ]</pre>
-<!-- ☝️ Replace with a single sentence describing the purpose of your repo / proj ☝️ -->
+<pre align="center">Unity Common Services (Unity-CS) is a subsystem of the Unity project that focuses on developing cross-cutting solutions and software.</pre>
 
 <!-- Header block for project -->
 
-
 Unity-CS (Unity Common Services) is a subsystem of the Unity project that focuses on developing cross-cutting solutions and software such as security, deployment, routing and networking topology, monitoring, and more.
-
 
 ## Features
 
-* [INSERT LIST OF FEATURES IMPORTANT TO YOUR USERS HERE]
-  
-<!-- ☝️ Replace with a bullet-point list of your features ☝️ -->
+- **Cross-cutting solutions**: Unity-CS provides solutions that span across multiple areas of the Unity project.
+- **Security**: Ensuring the safety and security of the Unity project.
+- **Deployment**: Unity-CS aids in the deployment of various components of the Unity project.
+- **Monitoring**: Keeping an eye on the performance and health of the Unity project.
 
 ## Contents
 
-* [Quick Start](#quick-start)
-* [Changelog](#changelog)
-* [FAQ](#frequently-asked-questions-faq)
-* [Contributing Guide](#contributing)
-* [License](#license)
-* [Support](#support)
+- [Quick Start](#quick-start)
+- [Changelog](#changelog)
+- [FAQ](#frequently-asked-questions-faq)
+- [Contributing Guide](#contributing)
+- [License](#license)
+- [Support](#support)
 
 ## Quick Start
 
@@ -40,42 +37,22 @@ This guide provides a quick way to get started with our project. Please see our 
 
 ### Requirements
 
-* [INSERT LIST OF REQUIREMENTS HERE]
-  
-<!-- ☝️ Replace with a numbered list of your requirements, including hardware if applicable ☝️ -->
+- **Unity**: Unity-CS is a subsystem of the Unity project, so having the Unity system enabled is essential.
+- **Knowledge of Unity**: Familiarity with the Unity project will be beneficial.
 
 ### Setup Instructions
 
 Please see the [Common Services Quick Start Page](https://unity-sds.gitbook.io/docs/developer-docs/common-services/quick-start) for more information.
 
-
 ## Changelog
 
 See our [CHANGELOG.md](CHANGELOG.md) for a history of our changes.
 
-See our [releases page]([INSERT LINK TO YOUR RELEASES PAGE]) for our key versioned releases.
-
-<!-- ☝️ Replace with links to your changelog and releases page ☝️ -->
+See our [releases page](https://github.com/unity-sds/unity-cs/releases) for our key versioned releases.
 
 ## Frequently Asked Questions (FAQ)
 
-[INSERT LINK TO FAQ PAGE OR PROVIDE FAQ INLINE HERE]
-<!-- example link to FAQ PAGE>
-Questions about our project? Please see our: [FAQ]([INSERT LINK TO FAQ / DISCUSSION BOARD])
--->
-
-<!-- example FAQ inline format>
-1. Question 1
-   - Answer to question 1
-2. Question 2
-   - Answer to question 2
--->
-
-<!-- example FAQ inline with no questions yet>
-No questions yet. Propose a question to be added here by reaching out to our contributors! See support section below.
--->
-
-<!-- ☝️ Replace with a list of frequently asked questions from your project, or post a link to your FAQ on a discussion board ☝️ -->
+For questions about our project, please refer to the [Unity FAQ](https://unity-sds.gitbook.io/docs/getting-help/faq) or the [Unity-CS FAQ](https://unity-sds.gitbook.io/docs/developer-docs/common-services/faq).
 
 ## Contributing
 
@@ -87,11 +64,4 @@ See our: [LICENSE](LICENSE)
 
 ## Support
 
-[INSERT CONTACT INFORMATION OR PROFILE LINKS TO MAINTAINERS AMONG COMMITTER LIST]
-
-<!-- example list of contacts>
-Key points of contact are: [@github-user-1](link to github profile) [@github-user-2](link to github profile)
--->
-
-<!-- ☝️ Replace with the key individuals who should be contacted for questions ☝️ -->
-
+For support, please refer to the official Unity-CS documentation or reach out to lead [@galenatjpl](https://github.com/galenatjpl)
