@@ -15,16 +15,9 @@
 
 <!-- Header block for project -->
 
-[INSERT YOUR BADGES HERE (SEE: https://shields.io)] [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
-<!-- ☝️ Add badges via: https://shields.io e.g. ![](https://img.shields.io/github/your_chosen_action/your_org/your_repo) ☝️ -->
 
-[INSERT SCREENSHOT OF YOUR SOFTWARE, IF APPLICABLE]
-<!-- ☝️ Screenshot of your software (if applicable) via ![](https://uri-to-your-screenshot) ☝️ -->
+Unity-CS (Unity Common Services) is a subsystem of the Unity project that focuses on developing cross-cutting solutions and software such as security, deployment, routing and networking topology, monitoring, and more.
 
-[INSERT MORE DETAILED DESCRIPTION OF YOUR REPOSITORY HERE]
-<!-- ☝️ Replace with a more detailed description of your repository, including why it was made and whom its intended for.  ☝️ -->
-
-[Wiki](https://github.com/unity-sds/unity-cs/wiki) | [Discussion Board](INSERT DISCUSSION BOARD LINK HERE) | [Issue Tracker](https://github.com/unity-sds/unity-cs/issues)
 
 ## Features
 
@@ -53,33 +46,8 @@ This guide provides a quick way to get started with our project. Please see our 
 
 ### Setup Instructions
 
-1. [INSERT STEP-BY-STEP SETUP INSTRUCTIONS HERE, WITH OPTIONAL SCREENSHOTS]
-   
-<!-- ☝️ Replace with a numbered list of how to set up your software prior to running ☝️ -->
+Please see the [Common Services Quick Start Page](https://unity-sds.gitbook.io/docs/developer-docs/common-services/quick-start) for more information.
 
-### Run Instructions
-
-1. [INSERT STEP-BY-STEP RUN INSTRUCTIONS HERE, WITH OPTIONAL SCREENSHOTS]
-
-<!-- ☝️ Replace with a numbered list of your run instructions, including expected results ☝️ -->
-
-### Usage Examples
-
-* [INSERT LIST OF COMMON USAGE EXAMPLES HERE, WITH OPTIONAL SCREENSHOTS]
-
-<!-- ☝️ Replace with a list of your usage examples, including screenshots if possible, and link to external documentation for details ☝️ -->
-
-### Build Instructions (if applicable)
-
-1. [INSERT STEP-BY-STEP BUILD INSTRUCTIONS HERE, WITH OPTIONAL SCREENSHOTS]
-
-<!-- ☝️ Replace with a numbered list of your build instructions, including expected results / outputs with optional screenshots ☝️ -->
-
-### Test Instructions (if applicable)
-
-1. [INSERT STEP-BY-STEP TEST INSTRUCTIONS HERE, WITH OPTIONAL SCREENSHOTS]
-
-<!-- ☝️ Replace with a numbered list of your test instructions, including expected results / outputs with optional screenshots ☝️ -->
 
 ## Changelog
 
