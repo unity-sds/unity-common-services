@@ -20,20 +20,34 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - [unity-cs #254] Modify Marketplace Automation to look for Terraform files in user-supplied sub-directories (dependency from U-ADS)
       
 - FEATURE:  `Management Console`
+    - [unity-cs #265]Implement approach for Terraform apply for deployment in MC
+    - [unity-cs #259]Implement Management Console Teardown API endpoint
+    - [unity-cs #257]Switch websocket in go to an eventbus driven pipeline
+    - [unity-cs #255]Migrate EKS to its own package
+    - [unity-cs #250]Define interfaces and touch points for next development sprint
+    - [unity-cs #249]Test suite for existing code
+    - [unity-cs #220]Augment Management Console with endpoints needed by nightly/other
+    - [unity-cs #211]Implement SW Deployment Teardown via S3-backed TF State
+    - [unity-cs #244]Track changes in ssm param values vs config expectation
+    - [unity-cs #242]Figure out how to reconnect to an install log stream if refresh is hit or connection lost
+    - [unity-cs #237][New Feature]: persist installed applications in SQLite Database
+    - [unity-cs #239][New Feature]: Migrate UI websocket to more of a message bus flow with handlers handing off it.
+    - [unity-cs #235][New Feature]: Fix logging properly for act in management console
+    - [unity-cs #234][New Feature]: CI for marketplace to create 1 combined manifest
+    - [unity-cs #232][New Feature]: CI validator for marketplace
     - [unity-cs #245] Investigate Terraform managed EKS(CTL)
-    - TODO: add rest of issues completed here
           
 - FEATURE:  `Marketplace Integration`
-    - TODO: add rest of issues completed here
+    - [unity-cs #258] Integrate Project Account API GW IAC into Marketplace
 
 - FEATURE:  `Navbar hard-coded`
-    - TODO: add rest of issues completed here
+    - [unity-cs #248] Need to fully define Role/Identify nomenclature (dependency from UI/UX)
  
 - FEATURE:  `Operator Test Venue`
     - this feature wasn't included in this release.
  
 - FEATURE:  `Unity SIPS Test Venue`
-    - TODO: add rest of issues completed here
+    - [unity-cs #260] Investigate Not having Thousands of API GW routes in Shared Services API GW
 
 --------
 
