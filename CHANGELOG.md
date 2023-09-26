@@ -6,6 +6,37 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 --------
+# [Unity Release 23.3] - 2023-09-26
+
+- unity-cs : https://github.com/unity-sds/unity-cs/releases/tag/23.3
+- unity-cs-infra : https://github.com/unity-sds/unity-cs-infra/releases/tag/ TBD
+- unity-cs-security : https://github.com/unity-sds/unity-cs-security/releases/tag/ TBD
+- unity-cs-manager : https://github.com/unity-sds/unity-cs-manager/releases/tag/ TBD
+- unity-management-console :  https://github.com/unity-sds/unity-management-console/releases/tag/ TBD
+- unity-cs-action : https://github.com/unity-sds/unity-cs-action/releases/tag/ TBD
+
+## Features:
+- FEATURE:  `Jupyter Marketplace`
+    - [unity-cs #254] Modify Marketplace Automation to look for Terraform files in user-supplied sub-directories (dependency from U-ADS)
+      
+- FEATURE:  `Management Console`
+    - [unity-cs #245] Investigate Terraform managed EKS(CTL)
+    - TODO: add rest of issues completed here
+          
+- FEATURE:  `Marketplace Integration`
+    - TODO: add rest of issues completed here
+
+- FEATURE:  `Navbar hard-coded`
+    - TODO: add rest of issues completed here
+ 
+- FEATURE:  `Operator Test Venue`
+    - this feature wasn't included in this release.
+ 
+- FEATURE:  `Unity SIPS Test Venue`
+    - TODO: add rest of issues completed here
+
+--------
+
 # [Unity Release 23.2] - 2023-06-30
 
 - unity-cs : https://github.com/unity-sds/unity-cs/releases/tag/23.2
