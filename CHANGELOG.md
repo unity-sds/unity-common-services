@@ -9,10 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 # [Unity Release 23.3] - 2023-09-26
 
 - unity-cs : https://github.com/unity-sds/unity-cs/releases/tag/23.3
-- unity-cs-infra : https://github.com/unity-sds/unity-cs-infra/releases/tag/ TBD
+- unity-cs-infra : https://github.com/unity-sds/unity-cs-infra/releases/tag/0.1.2
 - unity-cs-security : https://github.com/unity-sds/unity-cs-security/releases/tag/ TBD
-- unity-cs-manager : https://github.com/unity-sds/unity-cs-manager/releases/tag/ TBD
-- unity-management-console :  https://github.com/unity-sds/unity-management-console/releases/tag/ TBD
+- unity-cs-manager : https://github.com/unity-sds/unity-cs-manager/releases/tag/0.1.27-Alpha
+- unity-management-console :  https://github.com/unity-sds/unity-management-console/releases/tag/0.2.17
 - unity-cs-action : https://github.com/unity-sds/unity-cs-action/releases/tag/ TBD
 - NEED MARKETPLACE REPO
 
