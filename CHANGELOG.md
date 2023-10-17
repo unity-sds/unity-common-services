@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - unity-cs-security : https://github.com/unity-sds/unity-cs-security/releases/tag/0.1.1
 - unity-cs-manager : https://github.com/unity-sds/unity-cs-manager/releases/tag/0.1.27-Alpha
 - unity-management-console :  https://github.com/unity-sds/unity-management-console/releases/tag/0.2.17
-- NEED MARKETPLACE REPO
+- unity-marketplace : https://github.com/unity-sds/unity-marketplace/releases/tag/0.1
 
 ## Features:
 - FEATURE:  `Jupyter Marketplace`
