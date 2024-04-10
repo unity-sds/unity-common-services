@@ -22,6 +22,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - FEATURE:  `Management Console`
     - [unity-cs #285](https://github.com/unity-sds/unity-cs/issues/285) return error logs to webconsole is terraform fails
     - [unity-cs #317](https://github.com/unity-sds/unity-cs/issues/317) [New Feature]: Develop method to allow services to register with httpd
+    - [unity-cs #363](https://github.com/unity-sds/unity-cs/issues/363) Make distinct IDs for install button in the Marketplace/Deployment web page in Management Console
+    - [unity-cs #364](https://github.com/unity-sds/unity-cs/issues/364) Add text in Marketplace MC UI that displays the version numbers for deployables
 
 - FEATURE: `Nightly Deployment`
     - [unity-cs #298](https://github.com/unity-sds/unity-cs/issues/298) Update docs on how to properly architect a Marketplace module
@@ -34,6 +36,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - FEATURE:  `Production Shared Services`
     - [unity-cs #312](https://github.com/unity-sds/unity-cs/issues/312) Production API Gateway deployed (CS API Gateway)
     - [unity-cs #318](https://github.com/unity-sds/unity-cs/issues/318) Fix MIME type issues with CloudFront origin accessing MC through httpd proxy
+    - [unity-cs #314](https://github.com/unity-sds/unity-cs/issues/314) Shared Services common auth deployed (CS)
     - 
 
 - FEATURE:  `SBG Venue`
@@ -42,7 +45,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  
 - FEATURE:  `Unity SIPS Test Venue`
     - [unity-cs #192](https://github.com/unity-sds/unity-cs/issues/192) Ensure that U-DS Shared Services are Deployed to Unity-Test AWS Account and Accessible by SPS
-    - 
+    - [unity-cs #246](https://github.com/unity-sds/unity-cs/issues/246) Push-button EKS Deployment via Management Console as a Marketplace entry (Dependency from SPS)
+    - [unity-cs #247](https://github.com/unity-sds/unity-cs/issues/247) Push-button API Gateway Deployment (Dependency from SPS)
+ 
+- FEATURE:  `View Run Logs`
+    - [unity-cs #75](https://github.com/unity-sds/unity-project-management/issues/75) As an operator, I want to view run logs in order to debug errors (joint UI/UX/SPS/CS ticket)
+ 
+- NO FEATURE:
+    - [unity-cs #353](https://github.com/unity-sds/unity-cs/issues/353) Add creation of U-CS_Service_Policy to Cloudformation template
+    - [unity-cs #356](https://github.com/unity-sds/unity-cs/issues/356) Refresh GH token for nightlies
 
 --------
 
