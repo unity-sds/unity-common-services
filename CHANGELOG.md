@@ -6,6 +6,35 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 --------
+# [Unity Release 24.1] - 2024-04-06
+
+- unity-cs : https://github.com/unity-sds/unity-cs/releases/tag/24.1
+- unity-cs-infra : https://github.com/unity-sds/unity-cs-infra/releases/tag/TBD
+- unity-cs-security : https://github.com/unity-sds/unity-cs-security/releases/tag/TBD
+- unity-cs-manager : https://github.com/unity-sds/unity-cs-manager/releases/tag/TBD
+- unity-management-console :  https://github.com/unity-sds/unity-management-console/releases/tag/TBD
+- unity-marketplace : https://github.com/unity-sds/unity-marketplace/releases/tag/TBD
+
+## Features:
+- FEATURE:  `Jupyter Marketplace`
+    - 
+      
+- FEATURE:  `Management Console`
+    -     
+- FEATURE:  `Marketplace Integration`
+    - 
+
+- FEATURE:  `Navbar hard-coded`
+    - 
+ 
+- FEATURE:  `Operator Test Venue`
+    - 
+ 
+- FEATURE:  `Unity SIPS Test Venue`
+    - 
+
+--------
+
 # [Unity Release 23.3] - 2023-09-26
 
 - unity-cs : https://github.com/unity-sds/unity-cs/releases/tag/23.3
