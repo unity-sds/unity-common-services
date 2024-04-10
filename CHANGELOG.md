@@ -31,16 +31,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - [unity-cs #360](https://github.com/unity-sds/unity-cs/issues/360) Verify that all the MC AWS resources get uninstalled
     - [unity-cs #362](https://github.com/unity-sds/unity-cs/issues/362) Installation and Testing of Management Console on Barebones Amazon Venue
       
-- FEATURE:  `Marketplace Integration`
+- FEATURE:  `Production Shared Services`
+    - [unity-cs #312](https://github.com/unity-sds/unity-cs/issues/312) Production API Gateway deployed (CS API Gateway)
+    - [unity-cs #318](https://github.com/unity-sds/unity-cs/issues/318) Fix MIME type issues with CloudFront origin accessing MC through httpd proxy
     - 
 
-- FEATURE:  `Navbar hard-coded`
-    - 
- 
-- FEATURE:  `Operator Test Venue`
-    - 
+- FEATURE:  `SBG Venue`
+    - [unity-cs #320](https://github.com/unity-sds/unity-cs/issues/320) Venue API Gateway (CS)
+    - [unity-cs #321](https://github.com/unity-sds/unity-cs/issues/321) Lambda Authorizer (CS)
  
 - FEATURE:  `Unity SIPS Test Venue`
+    - [unity-cs #192](https://github.com/unity-sds/unity-cs/issues/192) Ensure that U-DS Shared Services are Deployed to Unity-Test AWS Account and Accessible by SPS
     - 
 
 --------
