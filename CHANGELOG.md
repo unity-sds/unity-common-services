@@ -20,7 +20,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - 
       
 - FEATURE:  `Management Console`
-    -     
+    - [unity-cs #285](https://github.com/unity-sds/unity-cs/issues/285) return error logs to webconsole is terraform fails
+    - [unity-cs #317](https://github.com/unity-sds/unity-cs/issues/317) [New Feature]: Develop method to allow services to register with httpd
+
+- FEATURE: `Nightly Deployment`
+    - [unity-cs #298](https://github.com/unity-sds/unity-cs/issues/298) Update docs on how to properly architect a Marketplace module
+    - [unity-cs #322](https://github.com/unity-sds/unity-cs/issues/322) unused run.sh script
+    - [unity-cs #357](https://github.com/unity-sds/unity-cs/issues/357) Fix nightly cron jobs
+    - [unity-cs #359](https://github.com/unity-sds/unity-cs/issues/359) Add Parameter to run script for MC version
+    - [unity-cs #360](https://github.com/unity-sds/unity-cs/issues/360) Verify that all the MC AWS resources get uninstalled
+    - [unity-cs #362](https://github.com/unity-sds/unity-cs/issues/362) Installation and Testing of Management Console on Barebones Amazon Venue
+      
 - FEATURE:  `Marketplace Integration`
     - 
 
