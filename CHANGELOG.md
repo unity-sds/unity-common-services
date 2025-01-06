@@ -6,6 +6,43 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 --------
+# [Unity Release 24.4] - 2024-01-06
+
+- unity-cs : https://github.com/unity-sds/unity-cs/releases/tag/24.4
+- unity-cs-infra : https://github.com/unity-sds/unity-cs-infra/releases/tag/TBD
+- unity-cs-security : https://github.com/unity-sds/unity-cs-security/releases/tag/TBD
+- unity-cs-manager : https://github.com/unity-sds/unity-cs-manager/releases/tag/TBD
+- unity-management-console :  https://github.com/unity-sds/unity-management-console/releases/tag/TBD
+- unity-marketplace : https://github.com/unity-sds/unity-marketplace/releases/tag/TBD
+
+## Features:
+- FEATURE:  `Jupyter Marketplace`
+    - list coming soon..
+      
+- FEATURE:  `Management Console`
+    - list coming soon..
+
+- FEATURE: `Nightly Deployment`
+    - list coming soon..
+      
+- FEATURE:  `Production Shared Services`
+    - list coming soon.. 
+
+- FEATURE:  `SBG Venue`
+    - list coming soon..
+ 
+- FEATURE:  `Unity SIPS Test Venue`
+    - list coming soon..
+ 
+- FEATURE:  `View Run Logs`
+    - list coming soon..
+ 
+- NO FEATURE:
+    - list coming soon..
+
+--------
+
+--------
 # [Unity Release 24.1] - 2024-04-06
 
 - unity-cs : https://github.com/unity-sds/unity-cs/releases/tag/24.1
