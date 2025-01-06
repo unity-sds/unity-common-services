@@ -15,50 +15,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - unity-management-console :  https://github.com/unity-sds/unity-management-console/releases/tag/0.4.7.32
 - unity-marketplace : https://github.com/unity-sds/unity-marketplace/releases/tag/0.3
 
-## 24.2:
+## 24.4:
 - BUG FIXES AND IMPROVEMENTS:
-    - [unity-cs #](https://github.com/unity-sds/unity-cs-infra/issues/17)  Set endpoints for a venue in a configuration	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/305)  Investigate SSL cert via Shared Services CloudFront	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/315)  Shared Services HTTPD proxy Work (CS)	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/323)  httpd terraform module finalization	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/352)  Integrate HTTPD into the Reference Application
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/354)  Fix HTTPS/HTTP issue with HTTPD authentication of Management Console	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/355)  Enable HTTPS in Management Console	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/358)  Track Down and delete mystery untagged resource	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/365)  Make MC version flexible in CF template	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/366)  Management Console 24.2 Features	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/367)  Implement lambda in Venue account to periodically gather health status	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/370)  Create SSM parameter for monitoring S3 bucket name	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/372)  Update documentation to include necessary Cognito roles/users	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/373)  Add SSM parameter that specifies shared services account in venue creation process	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/374)  Venue Creation scripts would copy shared services health check SSM params into venue	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/376)  Add SSM Parameter that identifies the cognito domain assigned to the respective user pool of a given venue	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/397)  Ensure Cloudfront Distributions have a default Root Object	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/377)  Clean up Unity-Test Cognito User Pools	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/379)  Update SSM Documentation and Guidelines to support project/venue specific params	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/375)  Add SSM Parameter that identifies the shared services CloudFront distribution for a given venue	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/380)  Create Monitoring S3 bucket upon Management Console deployment	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/381)  Create Backend API to Serve Health Statuses of Deployed services in a proj/venue	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/383)  Fix the broken Management Console Deployment due to GH Token	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/385)  Mock Up Initiators Configuration Template for Review	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/388)  Determine how DAPA Client ID SSM param gets populated in Shared Services	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/389)  Determine how DAPA API URL SSM param gets populated in Shared Services	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/391)  Change S3 Bucket SSM param name and value to something generic.	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/392)  Remove Dependency of Management Console on /unity/core/project|venue SSM param	
-    - [unity-cs #](https://github.com/unity-sds/unity-on-demand/issues/37)  Setup Initiators Github repos	
-    - [unity-cs #](https://github.com/unity-sds/unity-on-demand/issues/38)  Create Schema that Validates Initiators Configuration	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/393)  Build out Lambda repository and build actions	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/398)  Properly namespace the Management Console URL SSM parameter	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/399)  Further cleanup of /unity/core/venue|project SSM Needed	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/400)  Create a common SSM param for /unity/cs/account/network/certificate-arn	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/401)  move proxy lambda SSM param to venue/project namespace	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/403)  HTTPD configuration Management Improvements	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/404)  Create EC2 HTTPD Dev Server in Unity-venue-dev	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/405)  Setup Authentication on shared services HTTPD	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/406)  Create Venue JupyterHub HTTPD config/rewrite rules	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/409)  Remove deprecated API GW code	
-    - [unity-cs #](https://github.com/unity-sds/unity-cs/issues/410)  Determine how to access Cognito user pool in SS account from Venue account	
-    - [unity-cs #414](https://github.com/unity-sds/unity-cs/issues/414)  Find a solution to support multiple httpd callback URLs	
+    - U-DS Data Bucket in marketplace	https://github.com/unity-sds/unity-project-management/issues/144
+    - Create JupyterHub unity-marketplace metadata.json	https://github.com/unity-sds/unity-ads/issues/1
+    - Create s3 gateways in the Proj/Venue VPC to provide non-NAT access to AWS S3 resources.	https://github.com/unity-sds/unity-project-management/issues/209
+    - Airflow integration into Unity Marketplace	https://github.com/unity-sds/unity-project-management/issues/210
+    - Implement shared services to dev proxy for SPS airflow endpoints	https://github.com/unity-sds/unity-cs/issues/429
+    - Integrate MC HealthCheck API with Venue API Gateway	https://github.com/unity-sds/unity-cs/issues/459
+    - Improve MC UI branch field	https://github.com/unity-sds/unity-cs/issues/473
+    - Always show what the injected variables are in the MC	https://github.com/unity-sds/unity-cs/issues/474
+    - MMGIS integration into Unity Marketplace	https://github.com/unity-sds/unity-project-management/issues/211
+    - [Feature] Put navbar UI into the Marketplace	https://github.com/unity-sds/unity-sds-portal/issues/9
+    - Deploy navbar/health-dashboard/mgmt-console as a base bootstrap-deploy	https://github.com/unity-sds/unity-cs/issues/483
+    - Remove project and venue variables from the u-ds marketplace json	https://github.com/unity-sds/unity-cs/issues/486
+    - Demo the deployment of U-DS bucket via MC in a Unity Team meeting	https://github.com/unity-sds/unity-cs/issues/487
+    - JupyterHub Integration into Unity Marketplace: Understand and Test Manual deployment as-is	https://github.com/unity-sds/unity-cs/issues/489
+    - Create s3 gateways in the Proj/Venue VPC to provide non-NAT access to AWS S3 resources	https://github.com/unity-sds/unity-cs/issues/492
+    - Move towards HTTP requests instead of WS API calls in Uninstall & Install actions	https://github.com/unity-sds/unity-cs/issues/494
+    - Research how to properly recreated the Unity-CS_Service_Role Without Disrupting stuff	https://github.com/unity-sds/unity-cs/issues/498
+    - Improve Behavior on Uninstall Apps	https://github.com/unity-sds/unity-cs/issues/502
+    - Make Uninstalled Tiles Dismissable	https://github.com/unity-sds/unity-cs/issues/503
+    - [Bug]: API Gateway deployments are not setting the Cognito configs in  unity-apigateway-unity-cs-common-lambda-authorizer	https://github.com/unity-sds/unity-cs/issues/500
+    - Fix Issue with lifecycle rule deleting terraform state file in s3 bucket	https://github.com/unity-sds/unity-cs/issues/509
+    - Fix the NLB security group to allow access from VPC Link / API Gateway in venue	https://github.com/unity-sds/unity-cs/issues/510
 
 ## 24.3:
 - BUG FIXES AND IMPROVEMENTS:
@@ -105,31 +85,52 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - Optimize Unnecessary sleeps in the MC Go Code during deployment	https://github.com/unity-sds/unity-cs/issues/469
     - Config File Driven Deployment Versions	https://github.com/unity-sds/unity-cs/issues/470
 
-## 24.4:
+## 24.2:
 - BUG FIXES AND IMPROVEMENTS:
-    - U-DS Data Bucket in marketplace	https://github.com/unity-sds/unity-project-management/issues/144
-    - Create JupyterHub unity-marketplace metadata.json	https://github.com/unity-sds/unity-ads/issues/1
-    - Create s3 gateways in the Proj/Venue VPC to provide non-NAT access to AWS S3 resources.	https://github.com/unity-sds/unity-project-management/issues/209
-    - Airflow integration into Unity Marketplace	https://github.com/unity-sds/unity-project-management/issues/210
-    - Implement shared services to dev proxy for SPS airflow endpoints	https://github.com/unity-sds/unity-cs/issues/429
-    - Integrate MC HealthCheck API with Venue API Gateway	https://github.com/unity-sds/unity-cs/issues/459
-    - Improve MC UI branch field	https://github.com/unity-sds/unity-cs/issues/473
-    - Always show what the injected variables are in the MC	https://github.com/unity-sds/unity-cs/issues/474
-    - MMGIS integration into Unity Marketplace	https://github.com/unity-sds/unity-project-management/issues/211
-    - [Feature] Put navbar UI into the Marketplace	https://github.com/unity-sds/unity-sds-portal/issues/9
-    - Deploy navbar/health-dashboard/mgmt-console as a base bootstrap-deploy	https://github.com/unity-sds/unity-cs/issues/483
-    - Remove project and venue variables from the u-ds marketplace json	https://github.com/unity-sds/unity-cs/issues/486
-    - Demo the deployment of U-DS bucket via MC in a Unity Team meeting	https://github.com/unity-sds/unity-cs/issues/487
-    - JupyterHub Integration into Unity Marketplace: Understand and Test Manual deployment as-is	https://github.com/unity-sds/unity-cs/issues/489
-    - Create s3 gateways in the Proj/Venue VPC to provide non-NAT access to AWS S3 resources	https://github.com/unity-sds/unity-cs/issues/492
-    - Move towards HTTP requests instead of WS API calls in Uninstall & Install actions	https://github.com/unity-sds/unity-cs/issues/494
-    - Research how to properly recreated the Unity-CS_Service_Role Without Disrupting stuff	https://github.com/unity-sds/unity-cs/issues/498
-    - Improve Behavior on Uninstall Apps	https://github.com/unity-sds/unity-cs/issues/502
-    - Make Uninstalled Tiles Dismissable	https://github.com/unity-sds/unity-cs/issues/503
-    - [Bug]: API Gateway deployments are not setting the Cognito configs in  unity-apigateway-unity-cs-common-lambda-authorizer	https://github.com/unity-sds/unity-cs/issues/500
-    - Fix Issue with lifecycle rule deleting terraform state file in s3 bucket	https://github.com/unity-sds/unity-cs/issues/509
-    - Fix the NLB security group to allow access from VPC Link / API Gateway in venue	https://github.com/unity-sds/unity-cs/issues/510
-
+    - Set endpoints for a venue in a configuration	https://github.com/unity-sds/unity-cs-infra/issues/17
+    - Marketplace Integration	https://github.com/unity-sds/unity-project-management/issues/96
+    - Investigate SSL cert via Shared Services CloudFront	https://github.com/unity-sds/unity-cs/issues/305
+    - Shared Services HTTPD proxy Work (CS)	https://github.com/unity-sds/unity-cs/issues/315
+    - httpd terraform module finalization	https://github.com/unity-sds/unity-cs/issues/323
+    - Integrate HTTPD into the Reference Application	https://github.com/unity-sds/unity-cs/issues/352
+    - Fix HTTPS/HTTP issue with HTTPD authentication of Management Console	https://github.com/unity-sds/unity-cs/issues/354
+    - Enable HTTPS in Management Console	https://github.com/unity-sds/unity-cs/issues/355
+    - Track Down and delete mystery untagged resource	https://github.com/unity-sds/unity-cs/issues/358
+    - Make MC version flexible in CF template	https://github.com/unity-sds/unity-cs/issues/365
+    - Management Console 24.2 Features	https://github.com/unity-sds/unity-cs/issues/366
+    - Implement lambda in Venue account to periodically gather health status	https://github.com/unity-sds/unity-cs/issues/367
+    - Create SSM parameter for monitoring S3 bucket name	https://github.com/unity-sds/unity-cs/issues/370
+    - Update documentation to include necessary Cognito roles/users	https://github.com/unity-sds/unity-cs/issues/372
+    - Add SSM parameter that specifies shared services account in venue creation process	https://github.com/unity-sds/unity-cs/issues/373
+    - Venue Creation scripts would copy shared services health check SSM params into venue	https://github.com/unity-sds/unity-cs/issues/374
+    - Add SSM Parameter that identifies the cognito domain assigned to the respective user pool of a given venue	https://github.com/unity-sds/unity-cs/issues/376
+    - Ensure Cloudfront Distributions have a default Root Object	https://github.com/unity-sds/unity-cs/issues/397
+    - Clean up Unity-Test Cognito User Pools	https://github.com/unity-sds/unity-cs/issues/377
+    - Update SSM Documentation and Guidelines to support project/venue specific params	https://github.com/unity-sds/unity-cs/issues/379
+    - Add SSM Parameter that identifies the shared services CloudFront distribution for a given venue	https://github.com/unity-sds/unity-cs/issues/375
+    - Create Monitoring S3 bucket upon Management Console deployment	https://github.com/unity-sds/unity-cs/issues/380
+    - Create Backend API to Serve Health Statuses of Deployed services in a proj/venue	https://github.com/unity-sds/unity-cs/issues/381
+    - Fix the broken Management Console Deployment due to GH Token	https://github.com/unity-sds/unity-cs/issues/383
+    - Mock Up Initiators Configuration Template for Review	https://github.com/unity-sds/unity-cs/issues/385
+    - Determine how DAPA Client ID SSM param gets populated in Shared Services	https://github.com/unity-sds/unity-cs/issues/388
+    - Determine how DAPA API URL SSM param gets populated in Shared Services	https://github.com/unity-sds/unity-cs/issues/389
+    - Change S3 Bucket SSM param name and value to something generic.	https://github.com/unity-sds/unity-cs/issues/391
+    - Remove Dependency of Management Console on /unity/core/project|venue SSM param	https://github.com/unity-sds/unity-cs/issues/392
+    - Setup Initiators Github repos	https://github.com/unity-sds/unity-on-demand/issues/37
+    - Create Schema that Validates Initiators Configuration	https://github.com/unity-sds/unity-on-demand/issues/38
+    - Build out Lambda repository and build actions	https://github.com/unity-sds/unity-cs/issues/393
+    - Properly namespace the Management Console URL SSM parameter	https://github.com/unity-sds/unity-cs/issues/398
+    - Further cleanup of /unity/core/venue|project SSM Needed	https://github.com/unity-sds/unity-cs/issues/399
+    - Create a common SSM param for /unity/cs/account/network/certificate-arn	https://github.com/unity-sds/unity-cs/issues/400
+    - move proxy lambda SSM param to venue/project namespace	https://github.com/unity-sds/unity-cs/issues/401
+    - HTTPD configuration Management Improvements	https://github.com/unity-sds/unity-cs/issues/403
+    - Create EC2 HTTPD Dev Server in Unity-venue-dev	https://github.com/unity-sds/unity-cs/issues/404
+    - Setup Authentication on shared services HTTPD	https://github.com/unity-sds/unity-cs/issues/405
+    - Create Venue JupyterHub HTTPD config/rewrite rules	https://github.com/unity-sds/unity-cs/issues/406
+    - Remove deprecated API GW code	https://github.com/unity-sds/unity-cs/issues/409
+    - Determine how to access Cognito user pool in SS account from Venue account	https://github.com/unity-sds/unity-cs/issues/410
+    - Find a solution to support multiple httpd callback URLs	https://github.com/unity-sds/unity-cs/issues/414
+   
 --------
 # [Unity Release 24.1] - 2024-04-06
 
