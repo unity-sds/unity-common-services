@@ -12,7 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - unity-cs-infra : https://github.com/unity-sds/unity-cs-infra/releases/tag/0.1.5
 - unity-cs-security : https://github.com/unity-sds/unity-cs-security/releases/tag/0.1.3
 - unity-cs-manager : https://github.com/unity-sds/unity-cs-manager/releases/tag/0.1.30-Alpha
-- unity-management-console :  https://github.com/unity-sds/unity-management-console/releases/tag/0.4.7.32
+- unity-management-console :  https://github.com/unity-sds/unity-management-console/releases/tag/0.4.7.33
 - unity-marketplace : https://github.com/unity-sds/unity-marketplace/releases/tag/0.3
 
 ## 24.4:
